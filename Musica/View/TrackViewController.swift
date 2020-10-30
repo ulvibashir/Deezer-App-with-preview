@@ -100,7 +100,7 @@ class TrackViewController: UIViewController {
     
     func next() {
         if let index = indexPath?.row, index+1 < viewModel.tracks.count {
-            let track = viewModel.getMusic(with: index+1)
+            let track = try? viewModel.getMusic(with: index+1)
             setUp(track: track)
             self.indexPath!.row += 1
         }
@@ -114,7 +114,7 @@ class TrackViewController: UIViewController {
     
     func back() {
         if let index = indexPath?.row, index-1 > viewModel.tracks.count {
-            let track = viewModel.getMusic(with: index-1)
+            let track = try? viewModel.getMusic(with: index-1)
             setUp(track: track)
             self.indexPath!.row -= 1
         }

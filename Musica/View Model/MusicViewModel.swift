@@ -14,6 +14,8 @@ class MusicViewModel {
     var history: [String]?
     
     func search(text: String, success: @escaping ()->(), failure: @escaping ()->()) {
+        
+   
         Network.searchApi(searchText: text) { response in
             if let data = response.data {
                 self.tracks = data
@@ -24,7 +26,11 @@ class MusicViewModel {
         }
     }
     
-    func getMusic(with index: Int) -> Track {
+    func getMusic(with index: Int) throws -> Track {
+        
+        if tracks.count <= index {
+            throw ValidationErrors.outOfRange
+        }
         return tracks[index]
     }
 }

@@ -63,3 +63,9 @@ enum Types: String, Codable {
     case track = "track"
 }
 
+
+enum ValidationErrors: Error {
+    case notFound
+    case outOfRange
+}
+

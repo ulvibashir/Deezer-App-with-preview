@@ -19,7 +19,7 @@
 		11BA824725382FE10076C7E2 /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA824625382FE10076C7E2 /* MusicViewModel.swift */; };
 		11BA824A25383EFA0076C7E2 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA824925383EFA0076C7E2 /* SearchCollectionViewCell.swift */; };
 		11BA8256253877490076C7E2 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA8255253877490076C7E2 /* TrackViewController.swift */; };
-		11E321AE254BFDB30065E4D7 /* MusicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E321AD254BFDB30065E4D7 /* MusicaTests.swift */; };
+		11E321BE254C3B670065E4D7 /* MusicaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E321BD254C3B670065E4D7 /* MusicaTest.swift */; };
 		6D5113B04515DD960CBFE5F9 /* Pods_Musica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77711908170C65D870CB5A40 /* Pods_Musica.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,8 +49,8 @@
 		11BA824925383EFA0076C7E2 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
 		11BA8255253877490076C7E2 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
 		11E321AB254BFDB30065E4D7 /* MusicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		11E321AD254BFDB30065E4D7 /* MusicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicaTests.swift; sourceTree = "<group>"; };
 		11E321AF254BFDB30065E4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E321BD254C3B670065E4D7 /* MusicaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicaTest.swift; sourceTree = "<group>"; };
 		3909BD83526B09CF2F075958 /* Pods-Musica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musica.debug.xcconfig"; path = "Target Support Files/Pods-Musica/Pods-Musica.debug.xcconfig"; sourceTree = "<group>"; };
 		499729F96D5E541E34BF8F54 /* Pods-Musica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musica.release.xcconfig"; path = "Target Support Files/Pods-Musica/Pods-Musica.release.xcconfig"; sourceTree = "<group>"; };
 		77711908170C65D870CB5A40 /* Pods_Musica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Musica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,8 +167,8 @@
 		11E321AC254BFDB30065E4D7 /* MusicaTests */ = {
 			isa = PBXGroup;
 			children = (
-				11E321AD254BFDB30065E4D7 /* MusicaTests.swift */,
 				11E321AF254BFDB30065E4D7 /* Info.plist */,
+				11E321BD254C3B670065E4D7 /* MusicaTest.swift */,
 			);
 			path = MusicaTests;
 			sourceTree = "<group>";
@@ -341,7 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11E321AE254BFDB30065E4D7 /* MusicaTests.swift in Sources */,
+				11E321BE254C3B670065E4D7 /* MusicaTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
